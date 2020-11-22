@@ -46,8 +46,8 @@ public class MailHandler {
 
     public void sendMail(String addresslist, String subject, String sendtext) {
 
-        final String username = "nimalpereracs@gmail.com";
-        final String password = "cse@1234";
+        final String username = "123@gmail.com";
+        final String password = "cs234";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
